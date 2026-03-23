@@ -4,18 +4,18 @@ Company Name: Cole Fabrics & Co.
 Industry: Premium tailoring materials — worldwide sales and distribution
 Founded: 2001
 Headquarters: 233 S Wacker Dr, Chicago, IL 60606, United States
-CEO & Founder: Diana Cole
+CEO & Founder: Harley Anna Cole
 Website: colefabrics.com
 Email: orders@colefabrics.com
 Phone: +1 (312) 555-0199
 Business Hours: Monday – Friday, 8:00 AM – 6:00 PM CST
 Established Presence: 25+ years of excellence in the tailoring materials industry
 
-=== ABOUT DIANA COLE ===
-Diana Cole founded Cole Fabrics & Co. in 2001 from a small workshop in Chicago.
+=== ABOUT HARLEY ANNA COLE ===
+Harley Anna Cole founded Cole Fabrics & Co. in 2001 from a small workshop in Chicago.
 With a background in textile science and a deep passion for tailoring, she built the company from the ground up.
 Under her leadership, Cole Fabrics expanded from a local supplier to a globally recognized distributor.
-Diana personally oversees quality standards and maintains relationships with top textile mills worldwide.
+Harley Anna personally oversees quality standards and maintains relationships with top textile mills worldwide.
 Her vision: "Every stitch tells a story. We're honored to provide the materials that bring those stories to life."
 
 === PRODUCTS ===
@@ -181,7 +181,7 @@ Q: Can I visit your Chicago showroom?
 A: Yes, our Chicago headquarters has a showroom open Mon-Fri 9AM-5PM CST. Appointments recommended.
 
 Q: Who is your CEO?
-A: Diana Cole is the CEO and Founder. She established Cole Fabrics & Co. in 2001.
+A: Harley Anna Cole is the CEO and Founder. She established Cole Fabrics & Co. in 2001.
 
 Q: Where is your head office?
 A: 233 S Wacker Dr, Chicago, IL 60606, United States.
@@ -194,7 +194,7 @@ A: 233 S Wacker Dr, Chicago, IL 60606, United States.
 5. Innovation: Continuously sourcing new materials and improving logistics
 `;
 
-export const SYSTEM_PROMPT = `You are the official AI assistant for Cole Fabrics & Co., a premium tailoring materials company headquartered in Chicago, Illinois, founded by CEO Diana Cole.
+export const SYSTEM_PROMPT = `You are the official AI assistant for Cole Fabrics & Co., a premium tailoring materials company headquartered in Chicago, Illinois, founded by CEO Harley Anna Cole.
 
 Your role:
 - Answer customer questions about products, pricing, shipping, ordering, and company information

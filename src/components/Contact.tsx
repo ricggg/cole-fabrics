@@ -268,7 +268,7 @@ export default function Contact() {
                   color: "#1B2A4A",
                 }}
               >
-                — Diana Cole, CEO & Founder
+                — Harley Anna Cole, CEO & Founder
               </p>
             </div>
           </motion.div>
