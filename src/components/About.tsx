@@ -85,7 +85,7 @@ export default function About() {
             }}
           >
             Founded by{" "}
-            <strong style={{ color: "#1B2A4A" }}>Diana Cole</strong>, Cole
+            <strong style={{ color: "#1B2A4A" }}>Harley Cole</strong>, Cole
             Fabrics & Co. has grown from a small Chicago workshop into a
             globally recognized supplier of premium tailoring materials. Our
             mission is simple — provide the materials that help master
