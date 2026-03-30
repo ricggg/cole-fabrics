@@ -25,7 +25,6 @@ export default function Home() {
       <CTA />
       <Contact />
       <Footer />
-      <ChatWidget />
-    </main>
+          </main>
   );
 }
