@@ -29,12 +29,12 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (312) 555-0199",
+    value: "+1 (815) 575-8222",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "orders@colefabrics.com",
+    value: "sales@globaltailoringmaterials.com",
   },
   {
     icon: Clock,
@@ -202,8 +202,7 @@ export default function Contact() {
                         height: "44px",
                         minWidth: "44px",
                         borderRadius: "10px",
-                        background:
-                          "linear-gradient(135deg, #1B2A4A, #243560)",
+                        background: "linear-gradient(135deg, #1B2A4A, #243560)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -239,7 +238,7 @@ export default function Contact() {
               })}
             </div>
 
-            {/* CEO Quote */}
+            {/* Company Quote */}
             <div
               style={{
                 padding: "28px",
@@ -257,9 +256,9 @@ export default function Contact() {
                   marginBottom: "12px",
                 }}
               >
-                &ldquo;Every stitch tells a story. We&apos;re honored to
-                provide the materials that bring those stories to
-                life.&rdquo;
+                &ldquo;Quality materials are the foundation of exceptional
+                craftsmanship. We&apos;re proud to support professionals who
+                create with precision and purpose.&rdquo;
               </p>
               <p
                 style={{
@@ -268,7 +267,7 @@ export default function Contact() {
                   color: "#1B2A4A",
                 }}
               >
-                — Harley Anna Cole, CEO & Founder
+                — Global Tailoring Materials
               </p>
             </div>
           </motion.div>
@@ -323,8 +322,7 @@ export default function Contact() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns:
-                      "repeat(auto-fit, minmax(200px, 1fr))",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
                     gap: "20px",
                     marginBottom: "20px",
                   }}
@@ -372,8 +370,7 @@ export default function Contact() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns:
-                      "repeat(auto-fit, minmax(200px, 1fr))",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
                     gap: "20px",
                     marginBottom: "20px",
                   }}
@@ -386,7 +383,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setFormData({ ...formData, phone: e.target.value })
                       }
-                      placeholder="+1 (312) 555-0000"
+                      placeholder="+1 (815) 575-8222"
                       style={inputStyle}
                       onFocus={(e) =>
                         (e.currentTarget.style.borderColor = "#C8A960")
@@ -446,9 +443,7 @@ export default function Contact() {
                     <option value="retail">Retail Order</option>
                     <option value="sample">Sample Request</option>
                     <option value="custom">Custom Sourcing</option>
-                    <option value="partnership">
-                      Business Partnership
-                    </option>
+                    <option value="partnership">Business Partnership</option>
                   </select>
                 </div>
 
@@ -484,8 +479,7 @@ export default function Contact() {
                   style={{
                     width: "100%",
                     padding: "16px",
-                    background:
-                      "linear-gradient(135deg, #C8A960, #A88B3E)",
+                    background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                     color: "#FFFFFF",
                     border: "none",
                     borderRadius: "8px",

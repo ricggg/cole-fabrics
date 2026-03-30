@@ -7,25 +7,25 @@ const testimonials = [
   {
     name: "Alessandro Ricci",
     role: "Master Tailor, Milan",
-    text: "Cole Fabrics delivers the finest Italian wool I've ever sourced outside of Italy. Impeccable quality, every single time. Diana and her team truly understand what tailors need.",
+    text: "Global Tailoring Materials consistently delivers premium-quality fabrics and dependable service. The quality is excellent, and every order arrives exactly as expected.",
     stars: 5,
   },
   {
     name: "Yuki Tanaka",
     role: "Fashion Designer, Tokyo",
-    text: "Their silk collection is extraordinary. Shipping to Japan was faster than expected, and the fabric quality exceeded all my expectations. A truly world-class supplier.",
+    text: "Their fabric range is impressive, and the international shipping process was smooth and professional. A reliable supplier for high-standard fashion work.",
     stars: 5,
   },
   {
     name: "Amara Osei",
     role: "Bespoke Tailor, London",
-    text: "I've been ordering from Cole Fabrics for three years now. Their customer support is outstanding, and the bulk pricing makes my business more competitive.",
+    text: "I've been very pleased with the consistency, pricing, and support. Global Tailoring Materials has become an important part of my sourcing process.",
     stars: 5,
   },
   {
     name: "Carlos Mendez",
     role: "Atelier Owner, Mexico City",
-    text: "From measuring tools to premium fabrics — they are my one-stop shop. The quality consistency across orders is something I haven't found elsewhere.",
+    text: "From tools to fabrics, they provide dependable quality across every order. It's rare to find a supplier this consistent and easy to work with.",
     stars: 5,
   },
 ];
@@ -120,7 +120,6 @@ export default function Testimonials() {
                   right: "20px",
                 }}
               />
-              {/* Stars */}
               <div
                 style={{
                   display: "flex",

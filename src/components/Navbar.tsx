@@ -88,17 +88,7 @@ export default function Navbar() {
                 lineHeight: 1.2,
               }}
             >
-              Cole Fabrics
-            </span>
-            <span
-              style={{
-                fontSize: "10px",
-                color: "#C8A960",
-                letterSpacing: "2px",
-                textTransform: "uppercase",
-              }}
-            >
-              & Company
+              Global Tailoring Materials
             </span>
           </div>
         </a>

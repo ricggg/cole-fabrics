@@ -7,22 +7,22 @@ const values = [
   {
     icon: Award,
     title: "Unmatched Quality",
-    desc: "Every fabric, thread, and tool passes our rigorous quality inspection before it reaches you.",
+    desc: "Every fabric, thread, and tailoring accessory passes careful quality inspection before it reaches our customers.",
   },
   {
     icon: Users,
     title: "Client-First Approach",
-    desc: "We build lasting partnerships with tailors and designers, not just transactions.",
+    desc: "We build lasting partnerships with tailors, designers, boutiques, and fashion businesses around the world.",
   },
   {
     icon: Heart,
     title: "Passion for Craft",
-    desc: "We understand tailoring because we love the craft. Our team includes trained textile experts.",
+    desc: "We understand tailoring because we value precision, detail, and the artistry behind every finished garment.",
   },
   {
     icon: MapPin,
-    title: "Chicago Roots, Global Reach",
-    desc: "Headquartered in Chicago, Illinois — shipping to over 50 countries with reliable logistics.",
+    title: "Global Reach",
+    desc: "Serving clients across international markets with dependable sourcing, responsive service, and reliable delivery.",
   },
 ];
 
@@ -84,12 +84,14 @@ export default function About() {
               lineHeight: 1.7,
             }}
           >
-            Founded by{" "}
-            <strong style={{ color: "#1B2A4A" }}>Harley Anna Cole</strong>, Cole
-            Fabrics & Co. has grown from a small Chicago workshop into a
-            globally recognized supplier of premium tailoring materials. Our
-            mission is simple — provide the materials that help master
-            craftsmen create masterpieces.
+            <strong style={{ color: "#1B2A4A" }}>
+              Global Tailoring Materials
+            </strong>{" "}
+            is dedicated to supplying premium fabrics, threads, tools, and
+            garment-making essentials to professionals who value quality and
+            precision. Our mission is simple — provide the materials that help
+            skilled craftsmen and modern fashion businesses create exceptional
+            results.
           </motion.p>
         </div>
 

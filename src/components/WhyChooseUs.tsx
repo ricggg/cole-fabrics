@@ -14,32 +14,32 @@ const reasons = [
   {
     icon: Shield,
     title: "Quality Guaranteed",
-    desc: "Every product carries our quality assurance seal. If it doesn't meet your standards, we make it right.",
+    desc: "Every product is carefully selected to meet high quality standards. If it doesn't meet expectations, we make it right.",
   },
   {
     icon: Truck,
     title: "Worldwide Shipping",
-    desc: "Fast, reliable shipping to 50+ countries with real-time tracking and insured delivery.",
+    desc: "Fast, reliable shipping to 50+ countries with dependable logistics and delivery support.",
   },
   {
     icon: Headphones,
     title: "Expert Support",
-    desc: "Our textile specialists are available to help you choose the right materials for any project.",
+    desc: "Our team is available to help you choose the right fabrics, tools, and tailoring materials for your needs.",
   },
   {
     icon: DollarSign,
     title: "Competitive Pricing",
-    desc: "Wholesale and retail pricing that keeps you competitive without compromising quality.",
+    desc: "Wholesale and retail pricing designed to support businesses without compromising on quality.",
   },
   {
     icon: Package,
     title: "Bulk Order Discounts",
-    desc: "Special pricing for bulk orders, fashion schools, and recurring business partnerships.",
+    desc: "Special pricing is available for bulk orders, institutions, fashion businesses, and repeat clients.",
   },
   {
     icon: Clock,
     title: "Fast Turnaround",
-    desc: "Most orders processed within 24 hours. Express shipping available for urgent needs.",
+    desc: "Most orders are processed quickly so you can keep your operations moving without unnecessary delays.",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
               marginBottom: "16px",
             }}
           >
-            Why Cole Fabrics
+            Why Choose Us
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
               marginBottom: "20px",
             }}
           >
-            The Cole Fabrics Advantage
+            The Global Tailoring Materials Advantage
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -101,8 +101,8 @@ export default function WhyChooseUs() {
               lineHeight: 1.7,
             }}
           >
-            When you choose us, you choose a partner who cares about your
-            craft as much as you do.
+            When you choose us, you choose a trusted supplier that values
+            quality, reliability, and long-term business relationships.
           </motion.p>
         </div>
 
@@ -151,8 +151,7 @@ export default function WhyChooseUs() {
                     height: "48px",
                     minWidth: "48px",
                     borderRadius: "10px",
-                    background:
-                      "linear-gradient(135deg, #C8A960, #A88B3E)",
+                    background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",

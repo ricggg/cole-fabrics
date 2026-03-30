@@ -53,8 +53,7 @@ export default function Footer() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  background:
-                    "linear-gradient(135deg, #C8A960, #A88B3E)",
+                  background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -72,17 +71,7 @@ export default function Footer() {
                     lineHeight: 1.2,
                   }}
                 >
-                  Cole Fabrics
-                </span>
-                <span
-                  style={{
-                    fontSize: "9px",
-                    color: "#C8A960",
-                    letterSpacing: "2px",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  & Company
+                  Global Tailoring Materials
                 </span>
               </div>
             </div>
@@ -95,7 +84,8 @@ export default function Footer() {
               }}
             >
               Premium tailoring materials for master craftsmen. Worldwide
-              sales and distribution from Chicago, Illinois.
+              sales and distribution for quality-focused tailors, designers,
+              and fashion businesses.
             </p>
             <div
               style={{
@@ -124,7 +114,7 @@ export default function Footer() {
                 }}
               >
                 <Phone size={14} color="#C8A960" />
-                +1 (312) 555-0199
+                +1 (815) 575-8222
               </div>
               <div
                 style={{
@@ -135,7 +125,7 @@ export default function Footer() {
                 }}
               >
                 <Mail size={14} color="#C8A960" />
-                orders@colefabrics.com
+                sales@globaltailoringmaterials.com
               </div>
             </div>
           </div>
@@ -272,8 +262,7 @@ export default function Footer() {
                 type="submit"
                 style={{
                   padding: "12px 20px",
-                  background:
-                    "linear-gradient(135deg, #C8A960, #A88B3E)",
+                  background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                   color: "#FFFFFF",
                   border: "none",
                   borderRadius: "6px",
@@ -302,7 +291,7 @@ export default function Footer() {
             color: "#4B5563",
           }}
         >
-          <span>© 2026 Cole Fabrics & Co. All rights reserved.</span>
+          <span>© 2026 Global Tailoring Materials. All rights reserved.</span>
           <div style={{ display: "flex", gap: "24px" }}>
             <a
               href="#"

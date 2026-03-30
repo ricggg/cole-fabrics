@@ -136,10 +136,10 @@ export default function Hero() {
               maxWidth: "600px",
             }}
           >
-            From luxurious fabrics to precision tools — Cole Fabrics & Co.
-            supplies the world&apos;s finest tailoring materials to designers,
-            tailors, and fashion houses across 50+ countries. Headquartered in
-            Chicago, Illinois.
+            From premium fabrics to precision tools — Global Tailoring
+            Materials supplies high-quality tailoring materials to designers,
+            tailors, and fashion businesses across 50+ countries. Trusted for
+            quality, reliability, and global distribution.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -268,8 +268,7 @@ export default function Hero() {
           left: 0,
           right: 0,
           height: "100px",
-          background:
-            "linear-gradient(to top, #FFFFFF 0%, transparent 100%)",
+          background: "linear-gradient(to top, #FFFFFF 0%, transparent 100%)",
         }}
       />
     </section>

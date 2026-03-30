@@ -26,8 +26,8 @@ const quickQuestions = [
   "Do you ship internationally?",
   "What are your prices?",
   "Can I get free samples?",
-  "Who is Diana Cole?",
   "What are your business hours?",
+  "How can I contact you?",
 ];
 
 export default function ChatWidget() {
@@ -105,7 +105,7 @@ export default function ChatWidget() {
         id: generateId(),
         role: "assistant",
         content:
-          "I'm sorry, I'm having trouble connecting right now. Please try again or contact us directly at orders@colefabrics.com or call +1 (312) 555-0199.",
+          "I'm sorry, I'm having trouble connecting right now. Please try again or contact us directly at sales@globaltailoringmaterials.com or call +1 (815) 575-8222.",
         timestamp: new Date(),
       };
       setMessages((prev) => [...prev, errorMessage]);
@@ -138,7 +138,6 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Chat Toggle Button */}
       <AnimatePresence>
         {!isOpen && (
           <motion.button
@@ -167,8 +166,6 @@ export default function ChatWidget() {
             }}
           >
             <MessageCircle size={28} color="#FFFFFF" />
-
-            {/* Pulse ring */}
             <span
               style={{
                 position: "absolute",
@@ -182,7 +179,6 @@ export default function ChatWidget() {
         )}
       </AnimatePresence>
 
-      {/* Chat Window */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -205,7 +201,6 @@ export default function ChatWidget() {
               border: "1px solid rgba(200, 169, 96, 0.2)",
             }}
           >
-            {/* Header */}
             <div
               style={{
                 background: "linear-gradient(135deg, #1B2A4A, #111D35)",
@@ -240,7 +235,7 @@ export default function ChatWidget() {
                       color: "#FFFFFF",
                     }}
                   >
-                    Cole Fabrics AI
+                    Global Tailoring Materials AI
                   </div>
                   <div
                     style={{
@@ -346,7 +341,6 @@ export default function ChatWidget() {
               </div>
             </div>
 
-            {/* Messages Area */}
             <div
               style={{
                 flex: 1,
@@ -358,13 +352,11 @@ export default function ChatWidget() {
                 gap: "16px",
               }}
             >
-              {/* Welcome Message */}
               {messages.length === 0 && (
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                 >
-                  {/* Bot welcome */}
                   <div
                     style={{
                       display: "flex",
@@ -378,8 +370,7 @@ export default function ChatWidget() {
                         height: "32px",
                         minWidth: "32px",
                         borderRadius: "50%",
-                        background:
-                          "linear-gradient(135deg, #1B2A4A, #243560)",
+                        background: "linear-gradient(135deg, #1B2A4A, #243560)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -401,7 +392,7 @@ export default function ChatWidget() {
                       }}
                     >
                       <p style={{ marginBottom: "8px" }}>
-                        👋 Welcome to <strong>Cole Fabrics & Co.</strong>!
+                        👋 Welcome to <strong>Global Tailoring Materials</strong>!
                       </p>
                       <p style={{ marginBottom: "8px" }}>
                         I&apos;m your AI assistant. I can help you with:
@@ -425,7 +416,6 @@ export default function ChatWidget() {
                     </div>
                   </div>
 
-                  {/* Quick Questions */}
                   {showQuickQuestions && (
                     <div>
                       <p
@@ -473,8 +463,7 @@ export default function ChatWidget() {
                               e.currentTarget.style.borderColor = "#C8A960";
                             }}
                             onMouseLeave={(e) => {
-                              e.currentTarget.style.backgroundColor =
-                                "#FFFFFF";
+                              e.currentTarget.style.backgroundColor = "#FFFFFF";
                               e.currentTarget.style.borderColor =
                                 "rgba(200, 169, 96, 0.4)";
                             }}
@@ -488,7 +477,6 @@ export default function ChatWidget() {
                 </motion.div>
               )}
 
-              {/* Messages */}
               {messages.map((msg) => (
                 <motion.div
                   key={msg.id}
@@ -509,8 +497,7 @@ export default function ChatWidget() {
                         height: "32px",
                         minWidth: "32px",
                         borderRadius: "50%",
-                        background:
-                          "linear-gradient(135deg, #1B2A4A, #243560)",
+                        background: "linear-gradient(135deg, #1B2A4A, #243560)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -535,8 +522,7 @@ export default function ChatWidget() {
                         wordBreak: "break-word",
                         ...(msg.role === "user"
                           ? {
-                              background:
-                                "linear-gradient(135deg, #C8A960, #A88B3E)",
+                              background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                               color: "#FFFFFF",
                               borderTopRightRadius: "4px",
                             }
@@ -570,8 +556,7 @@ export default function ChatWidget() {
                         height: "32px",
                         minWidth: "32px",
                         borderRadius: "50%",
-                        background:
-                          "linear-gradient(135deg, #C8A960, #A88B3E)",
+                        background: "linear-gradient(135deg, #C8A960, #A88B3E)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -584,7 +569,6 @@ export default function ChatWidget() {
                 </motion.div>
               ))}
 
-              {/* Typing Indicator */}
               {isLoading && (
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
@@ -600,8 +584,7 @@ export default function ChatWidget() {
                       height: "32px",
                       minWidth: "32px",
                       borderRadius: "50%",
-                      background:
-                        "linear-gradient(135deg, #1B2A4A, #243560)",
+                      background: "linear-gradient(135deg, #1B2A4A, #243560)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -642,7 +625,6 @@ export default function ChatWidget() {
               <div ref={messagesEndRef} />
             </div>
 
-            {/* Input Area */}
             <div
               style={{
                 padding: "16px 20px",
@@ -711,9 +693,7 @@ export default function ChatWidget() {
                 >
                   <Send
                     size={18}
-                    color={
-                      !input.trim() || isLoading ? "#9CA3AF" : "#FFFFFF"
-                    }
+                    color={!input.trim() || isLoading ? "#9CA3AF" : "#FFFFFF"}
                   />
                 </motion.button>
               </form>
@@ -725,14 +705,13 @@ export default function ChatWidget() {
                   color: "#9CA3AF",
                 }}
               >
-                Powered by Cole Fabrics AI • Responses may not be 100% accurate
+                Powered by Global Tailoring Materials AI • Responses may not be 100% accurate
               </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Keyframe Animations */}
       <style jsx global>{`
         @keyframes chatPulse {
           0%,
