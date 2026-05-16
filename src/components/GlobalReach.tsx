@@ -62,7 +62,7 @@ export default function GlobalReach() {
               marginBottom: "20px",
             }}
           >
-            From Chicago to the World
+            From Ikoyi to the World
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

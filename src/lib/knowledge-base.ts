@@ -12,7 +12,7 @@ Business Hours: Monday – Friday, 8:00 AM – 6:00 PM CST
 Established Presence: 25+ years of excellence in the tailoring materials industry
 
 === ABOUT HARLEY ANNA COLE ===
-Harley Anna Cole founded Cole Fabrics & Co. in 2001 from a small workshop in Chicago.
+Harley Anna Cole founded Cole Fabrics & Co. in 2001 from a small workshop in Ikoyi.
 With a background in textile science and a deep passion for tailoring, she built the company from the ground up.
 Under her leadership, Cole Fabrics expanded from a local supplier to a globally recognized distributor.
 Harley Anna personally oversees quality standards and maintains relationships with top textile mills worldwide.
@@ -116,7 +116,7 @@ International:
 - Customs & duties: Buyer responsibility, we provide all documentation
 
 Countries Served: 50+ countries across 6 continents
-Distribution Hubs: Chicago (HQ), London, Dubai, Tokyo, São Paulo
+Distribution Hubs: Ikoyi (HQ), London, Dubai, Tokyo, São Paulo
 On-Time Delivery Rate: 98%
 
 All orders include:
@@ -177,8 +177,8 @@ A: We provide free replacements for any shipping damage. Contact us within 48 ho
 Q: Do you have a loyalty program?
 A: Yes! Registered members earn 5% back on every order.
 
-Q: Can I visit your Chicago showroom?
-A: Yes, our Chicago headquarters has a showroom open Mon-Fri 9AM-5PM CST. Appointments recommended.
+Q: Can I visit your Ikoyi showroom?
+A: Yes, our Ikoyi headquarters has a showroom open Mon-Fri 9AM-5PM CST. Appointments recommended.
 
 Q: Who is your CEO?
 A: Harley Anna Cole is the CEO and Founder. She established Cole Fabrics & Co. in 2001.
@@ -194,7 +194,7 @@ A: 72 ajeniya Street obalende ikoyi, Lagos.
 5. Innovation: Continuously sourcing new materials and improving logistics
 `;
 
-export const SYSTEM_PROMPT = `You are the official AI assistant for Cole Fabrics & Co., a premium tailoring materials company headquartered in Chicago, Illinois, founded by CEO Harley Anna Cole.
+export const SYSTEM_PROMPT = `You are the official AI assistant for Cole Fabrics & Co., a premium tailoring materials company headquartered in Ikoyi, Lagos, founded by CEO Harley Anna Cole.
 
 Your role:
 - Answer customer questions about products, pricing, shipping, ordering, and company information

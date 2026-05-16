@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Cole Fabrics & Co. | Premium Tailoring Materials — Worldwide",
   description:
-    "Premium tailoring fabrics, threads, tools & accessories. Worldwide sales & distribution from Chicago, Illinois. Trusted by tailors, designers & fashion houses globally.",
+    "Premium tailoring fabrics, threads, tools & accessories. Worldwide sales & distribution from Ikoyi, Lagos. Trusted by tailors, designers & fashion houses globally.",
   keywords: [
     "tailoring materials",
     "fabrics wholesale",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cole Fabrics & Co. | Premium Tailoring Materials — Worldwide",
     description:
-      "Premium tailoring fabrics, threads, tools & accessories. Worldwide sales & distribution from Chicago, Illinois.",
+      "Premium tailoring fabrics, threads, tools & accessories. Worldwide sales & distribution from Ikoyi, Lagos.",
     type: "website",
   },
 };
