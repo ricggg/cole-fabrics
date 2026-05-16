@@ -24,12 +24,12 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Head Office",
-    value: "233 S Wacker Dr, Chicago, IL 60606",
+    value: "72 ajeniya Street obalende ikoyi",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (815) 575-8222",
+    value: "+2348064325668",
   },
   {
     icon: Mail,
@@ -383,7 +383,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setFormData({ ...formData, phone: e.target.value })
                       }
-                      placeholder="+1 (815) 575-8222"
+                      placeholder="+2348064325668"
                       style={inputStyle}
                       onFocus={(e) =>
                         (e.currentTarget.style.borderColor = "#C8A960")

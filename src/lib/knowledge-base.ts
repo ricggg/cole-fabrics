@@ -3,11 +3,11 @@ export const COLE_FABRICS_KNOWLEDGE_BASE = `
 Company Name: Cole Fabrics & Co.
 Industry: Premium tailoring materials — worldwide sales and distribution
 Founded: 2001
-Headquarters: 233 S Wacker Dr, Chicago, IL 60606, United States
+Headquarters: 72 ajeniya Street obalende ikoyi
 CEO & Founder: Harley Anna Cole
 Website: colefabrics.com
 Email: orders@colefabrics.com
-Phone: +1 (312) 555-0199
+Phone: +2348064325668
 Business Hours: Monday – Friday, 8:00 AM – 6:00 PM CST
 Established Presence: 25+ years of excellence in the tailoring materials industry
 
@@ -184,7 +184,7 @@ Q: Who is your CEO?
 A: Harley Anna Cole is the CEO and Founder. She established Cole Fabrics & Co. in 2001.
 
 Q: Where is your head office?
-A: 233 S Wacker Dr, Chicago, IL 60606, United States.
+A: 72 ajeniya Street obalende ikoyi, Lagos.
 
 === COMPANY VALUES ===
 1. Quality First: We never compromise on material quality

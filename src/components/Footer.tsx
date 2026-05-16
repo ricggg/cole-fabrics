@@ -103,7 +103,7 @@ export default function Footer() {
                 }}
               >
                 <MapPin size={14} color="#C8A960" />
-                Chicago, IL 60606
+                72 ajeniya Street obalende ikoyi
               </div>
               <div
                 style={{
@@ -114,7 +114,7 @@ export default function Footer() {
                 }}
               >
                 <Phone size={14} color="#C8A960" />
-                +1 (815) 575-8222
+                +234 8064325668
               </div>
               <div
                 style={{
